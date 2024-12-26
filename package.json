@@ -1,0 +1,26 @@
+{
+  "name": "lindseyferretti.github.io",
+  "version": "1.0.0",
+  "description": "[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp; [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "browser-sync": "browser-sync start --proxy 'localhost:4000' --files 'public/**/*.*' --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindseyferretti/lindseyferretti.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindseyferretti/lindseyferretti.github.io/issues"
+  },
+  "homepage": "https://github.com/lindseyferretti/lindseyferretti.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "nodemon": "^3.1.9"
+  }
+}
